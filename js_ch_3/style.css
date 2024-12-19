@@ -1,0 +1,28 @@
+body{margin: 0px;
+     padding: 0px   
+}
+
+.st1{
+    height:140px;
+    width:100%;
+    background-color: blueviolet;
+}
+.st2{
+    background-color: black;   
+}
+
+
+.navbar{
+    text-align: center;
+    margin-top: 160px;
+    color: blanchedalmond;
+ 
+}
+.btn1{
+    margin-bottom: 16px;
+   width: 150px;
+   height: 50px;
+   font-size:26px;
+   border: 2px solid red;
+   box-shadow: 1px 1px lightblue;  
+}

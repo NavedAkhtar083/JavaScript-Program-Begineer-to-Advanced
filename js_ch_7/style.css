@@ -1,0 +1,251 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+}
+
+ 
+.left-box{
+    width: 20%;
+    height: 100vh;
+    background-color: blueviolet;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-right: 10px groove brown;
+}
+.right-box{
+    width: 80%;  
+    height:100vh;
+    background-color: coral; 
+    display:flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 25px; 
+   
+
+}
+
+.right-box .box{
+    width: 48%;
+    height:250px;
+    background-color: white;
+    margin-top: 30px;
+
+}
+
+.right-box .box.bg-img{
+    background-image: url(./images/a.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.right-box .box.bg-img.bgImage{
+    animation: bgImage 4s linear infinite;
+
+}
+@keyframes bgImage {
+    0%{
+        background-image: url(./images/a.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background-image: url(./images/b.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    50%{
+        background-image: url(./images/c.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    75%{
+        background-image: url(./images/d.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    100%{
+        background-image: url(./images/e.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    
+}
+
+
+
+.right-box .box.color-box{
+    background-color: red;
+
+}
+.right-box .color-box.bgColor{
+    animation: bgColor 4s linear infinite;
+
+}
+@keyframes bgColor {
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: blue;
+
+    }
+    50%{
+        background-color: chartreuse;
+
+    }
+    75%{
+        background-color: blueviolet;
+        
+
+    }
+    100%{
+        background-color: cornflowerblue;
+        
+    }
+}
+.right-box .box .loader-main{
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #ccc;
+    overflow: hidden;
+
+}
+.right-box .box.loader-box{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-box .box.loader-box .loader{
+    width: 20%;
+    height: 100%;
+    background-color: green;
+    border-radius: 20px;
+}
+.right-box .box.color-box{
+    background-color: red;
+
+}
+.right-box .box .move {
+    animation: move 4s linear infinite;
+    position: relative;
+
+}
+@keyframes move {
+    0%{
+        left: 0%;
+        width: 20%;
+    }
+    20%{
+        left: 20%;
+        width: 20%;
+
+    }
+    40%{
+        left: 40%;
+        width: 40%;
+
+    }
+    60%{
+        left: 60%;
+        width: 60%;
+        
+
+    }
+    80%{
+        left: 80%;
+        width: 80%;
+        
+
+    }
+    
+    100%{
+        left: 0%;
+        width: 20%;
+        
+    }
+}
+
+.right-box .box .circle-box{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+}
+.right-box .box.circle-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.right-box .box .zoom {
+    animation: zoom 4s linear infinite;
+
+}
+@keyframes zoom {
+    0%{
+        background-color: black;
+        transform: scale(1);
+    }
+    20%{
+        background-color:blue;
+        transform: scale(1.5);
+
+    }
+    40%{
+        background-color:yellow;
+        transform: scale(2);
+
+    }
+    60%{
+        background-color:green;
+        transform: scale(2.5);
+        
+
+    }
+    80%{
+        background-color:palevioletred;
+        transform: scale(3);
+        
+
+    }
+    
+    100%{
+        background-color:steelblue;
+        transform: scale(3.5);
+        
+    }
+}
+.left-box .left-box-btn{
+
+    background-color: aliceblue;
+    padding: 8px;
+}
+.left-box .left-box-btn button{
+    background-color: cadetblue;
+    color: white;
+    padding: 6px;
+    border: none;
+    text-wrap: nowrap;
+    /* margin-left: 35px; */
+    
+   
+}

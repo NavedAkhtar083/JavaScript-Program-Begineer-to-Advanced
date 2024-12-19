@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>
+        clear interval
+    </button>
+    <div></div>
+    <!-- <button>Get Data</button>
+    <button>Remove Data</button> -->
+
+    <script>
+        //let userinfo=[]
+        let allbtn=document.querySelectorAll("button");
+        let div=document.querySelector("div");
+        /*let data ={
+            name:"naved",
+            email:"navedkhan@gmail.com",
+            password:"helloworld"
+        }
+        //allbtn[0].onclick =() =>{
+            //sessionStorage.setItem("userinfo",JSON.stringify(data))
+       // }
+        /*allbtn[0].onclick =() =>{
+            document.cookie="username= just@gmail.com"
+        }
+
+        allbtn[1].onclick =() => {
+            let jsonstring=sessionStorage.getItem("userinfo");
+            let data=JSON.parse(jsonstring);
+            console.log(data);
+        }
+
+        allbtn[2].onclick = () =>{
+            //sessionStorage.removeItem("userinfo")
+            console.log(document.cookie);
+
+        }*/
+
+        /*const print =() =>{
+            let date= new date();
+            //div.innerHTML="<h1>"+date.toLocaleTimeString()+"</h1>";
+            div.innerHTML += "<h1>hello word </h1>"
+        }
+
+        let clear = setInterval(print,1000);
+            
+    
+
+        allbtn[0].onclick = () =>{
+            clearInterval(clear)
+        }*/
+
+        let time=10;
+
+         let clear =setInterval(()=>{
+            time--;
+            div.innerHTML="<h1>"+time+"</h1>";
+        },1000)
+
+        setTimeout(()=>{
+            div.innerHTML="<h1  !!!!!</h1>";
+            clearInterval(clear)
+        },11000)
+
+
+        
+
+     </script>
+</body>
+</html>

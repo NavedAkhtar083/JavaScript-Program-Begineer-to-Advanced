@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: aqua;
+    font-family: "Sedan SC", serif;
+}
+.text h1{
+    font-weight: 750;
+    font-size: 53px;
+    padding: 28px;
+}
+
+.container{
+    margin-top: 14px;
+    height: 200px;
+    min-height: 300px;
+    width: 50%;
+    background-color: antiquewhite;
+}
+.container input {
+    height: 48px;
+    width: 100%;
+    margin-top: 18px;
+    border: none;
+    border-radius: 8px;
+}
+.btn {
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 50px;    
+}
+
+.text{
+    font-size: 48px;
+}
+

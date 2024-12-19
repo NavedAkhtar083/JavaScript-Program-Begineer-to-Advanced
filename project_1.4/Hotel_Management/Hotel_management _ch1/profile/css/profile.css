@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+.navbar{
+    background-image: linear-gradient(#3068ff,#6bb8e9);
+}
+.navbar-brand{
+    font-size: 30px;
+}
+
+.navbar-nav{
+    font-size: 20px;
+}
+
+.btn{
+    background-image: linear-gradient(#3068ff,#6bb8e9);
+}
+.pro-container{
+    margin-top:110px;
+}

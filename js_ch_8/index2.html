@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: brown;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <script>
+            let boxx=document.querySelector(".box");
+            let button=document.createElement("button");
+            button.innerText="Hello , what is your name ";
+            button.style.backgroundColor="black";
+            button.style.color="white";
+            button.style.width="300px";
+            button.style.height="30px";
+            button.style.justifyContent="center";
+            console.log(button);
+            button.onclick = () =>{
+                button.innerText="My name is Naved Akhtar";
+            } 
+            boxx.append(button);
+
+    </script>
+</body>
+</html>

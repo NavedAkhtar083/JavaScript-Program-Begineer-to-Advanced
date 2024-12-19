@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        .head{
+            font-size: 48px;
+            background-color: red;
+            color: yellow;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    
+   <script>
+    let boxx=document.querySelector(".box");
+    let button=document.createElement("button");
+    button.innerText="Hello , what is your name ";
+    button.style.backgroundColor="red";
+    button.style.padding="13px";
+    button.style.border="none";
+    button.style.alignItems="center";
+    button.style.fontFamily="";
+    button.style.fontWeight="28px";
+    button.onclick = () =>{
+        //boxx.classList.toggle("boxx");
+        h1.classList.toggle("head");
+        button1.classList.add("button1");
+    }
+    boxx.append(button);
+    let h1 =document.createElement("h1");
+    h1.innerText="hello goofd morning ";
+    boxx.prepend(h1);
+
+    let button1=document.createElement("button");
+    button1.innerText="My name is naved Akhtar";
+    boxx.prepend(button1);
+
+   </script>
+</body>
+</html>

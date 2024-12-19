@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container{
+    background-color: blueviolet;
+    height: 50px;
+    width: 100%;
+
+}
+.main{
+    display: flex;
+    
+}
+.box1{
+    background-color: blanchedalmond;
+    border: 2px solid blue;
+    height: 220px;
+    width: 120px;
+    
+}
+.box2{
+    background-color: blanchedalmond;
+    border: 2px solid blue;
+    height: 220px;
+    width: 120px;
+}

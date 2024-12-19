@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.stl1{
+    position: fixed;
+    width: 100%; 
+    height: 100px;
+    background-color: #ffff;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+body{
+    background: black;
+}
+
+.stl2{
+    position: absolute;
+    color: #ffff;
+    left: 600px;
+    top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+.stl3{
+   padding-left: 25px;
+   font-size: 22px;
+   
+}
+.stl4{
+    text-align: center;
+    font-size: 42px;
+    
+ }
+.card1{
+    position: absolute;
+    left: 200px;
+    top: 140px;
+    background: #ffff;
+    color: black;
+    width: 30%;
+    height: 180px;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease-out;
+
+}
+.card1:hover{
+    box-shadow: 3px 3px 9px 9px lightskyblue;
+}
+.card1a{
+    width: 90%;
+    height: 45px;
+    background: #fff;
+    color: black;
+    text-align: left;
+    border-radius: 4px;
+    margin: 4px 4px;
+    left: 8px;
+    transition: all 0.3s ease-in;
+    padding: 10px 20px;
+    
+    
+}
+.card1a:hover{
+    background: black;
+    color: #fff;
+}
+.card2{
+    position: absolute;
+    left: 850px;
+    top: 140px;
+    background: #ffff;
+    color: black;
+    width: 30%;
+    height: 180px;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card3{
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    background: #ffff;
+    color: black;
+    width: 30%;
+    height: 180px;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card4{
+    position: absolute;
+    left: 850px;
+    top: 400px;
+    background: #ffff;
+    color: black;
+    width: 30%;
+    height: 180px;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card5{
+    position: absolute;
+    left: 200px;
+    top: 700px;
+    background: #ffff;
+    color: black;
+    width: 30%;
+    height: 180px;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card6{
+    position: absolute;
+    left: 850px;
+    top: 700px;
+    background: #ffff;
+    color: black;
+    width: 30%;
+    height: 180px;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card7{
+    position: absolute;
+    left: 850px;
+    top: 1000px;
+    background: #ffff;
+    color: black;
+    width: 30%;
+    height: 180px;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card8{
+    position: absolute;
+    left: 200px;
+    top: 1000px;
+    background: #ffff;
+    color: black;
+    width: 30%;
+    height: 180px;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+

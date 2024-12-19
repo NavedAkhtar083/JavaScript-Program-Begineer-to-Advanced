@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="navbar navbar-expand-md  fixed-top shadow-lg navbar-light ">
+        <div class="container-fluid">
+          <img src="img/logo.avif" width="60" class="rounded-circle">
+          <a href="#" class=" mx-4 navbar-brand"> Gulmarg Hotel</a>
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mymenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="mymenu"> 
+            <ul class="navbar-nav w-100 justify-content-end">
+              <li class="nav-item mx-2 fw-bold text-white"> Home </li>
+              <li class="nav-item mx-2  fw-bold text-white"> View </li>
+              <li class="nav-item mx-2  fw-bold text-white"> Contact </li>
+              <li class="nav-item mx-2   fw-bold text-white"> About </li>
+            </ul>
+          </div>
+         
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- nav tab -->
+           <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a href="#SignUp" class="nav-link active" data-bs-toggle="tab">
+                SignUp
+              </a>
+              <li class="nav-item">
+                <a href="#Login" class="nav-link" data-bs-toggle="tab">
+                  Login
+                </a>
+            </li>
+           </ul>
+
+          <!-- nav pane -->
+
+          <div class="tab-content">
+            <div class="tab-pane  active container mt-3" id="SignUp">
+              <img src="img/download.jfif"  class="w-50">
+              <form action="" >
+                <input type="text" placeholder="Full Name " class=" mb-1 form-control">
+                <input type="text" placeholder="Hotel Name " class=" mb-1 form-control">
+                <input type="number" placeholder="Hotel Rooms Total " class=" mb-1 form-control">
+                <input type="number " placeholder="Mobile Number " class=" mb-1 form-control">
+                <input type="email" placeholder="Email Id " class=" mb-1 form-control">
+                <input type="password" placeholder="Password " class=" mb-1 form-control">
+                <button class="btn btn-primary w-100">Register</button>
+              </form>
+            </div>
+            <div class="tab-pane   container mt-3" id="Login">
+              <img src="img/download.jfif"  class="w-50">
+              <form action="" >
+                <input type="email" placeholder="Email Id " class=" mb-2 form-control">
+                <input type="password" placeholder="Password " class=" mb-2 form-control">
+                <button class="btn btn-primary w-100">Login</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-5  d-flex justify-content-center align-items-center">
+          <img src="img/hotel1.jpeg" alt="" class=" w-100">
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
